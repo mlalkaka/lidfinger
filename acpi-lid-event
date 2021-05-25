@@ -1,0 +1,5 @@
+# Listen for laptop lid state changes and toggle the fingerprint sensor based
+# on the lid state.
+
+event=button/lid.*
+action=/etc/acpi/actions/toggle-fprint-auth.sh
